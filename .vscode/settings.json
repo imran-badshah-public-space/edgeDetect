@@ -4,6 +4,8 @@
         "atomic": "cpp",
         "*.tcc": "cpp",
         "istream": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "fstream": "cpp",
+        "vector": "cpp"
     }
 }
