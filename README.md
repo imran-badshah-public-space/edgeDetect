@@ -23,6 +23,7 @@
 - Sobel Operator for Edge Detection
 - Automatically run Makefile on file save
 - Image File streaming (reading and writing)
+- Image scaling
 
 ### Categories
 - Imaging
