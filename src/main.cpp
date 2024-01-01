@@ -1,5 +1,3 @@
-// https://www.youtube.com/watch?v=LWk9aepohoc
-
 # include "image.h"
 
 
@@ -9,7 +7,7 @@ void run (char **argv);
 int main (int argc, char **argv) {
 
     if (argc != 3) {
-        cerr << "Usage: ImageMainp imageName.pgm output.pgm"; // Creates output file automatically
+        cerr << "Usage: bin/edgeDetect imageName.pgm output.pgm"; // Creates output file automatically
         return 1;
     }
 

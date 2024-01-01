@@ -10,9 +10,9 @@ SRC_DIR := src
 BIN_DIR := bin
 INC_DIR := include
 
-CFLAGS := -std=c++11 # `pkg-config --cflags opencv` -I$(INC_DIR)#-Wall
+CFLAGS := -std=c++11 -I$(INC_DIR) # `pkg-config --cflags opencv` -I$(INC_DIR)#-Wall
 LIBS := #`pkg-config --libs opencv`
-EXEC := screenbrightness
+EXEC := edgeDetect
 
 SRC := $(wildcard $(SRC_DIR)/*.cpp)
 OBJ := $(SRC:$(SRC_DIR)/%.cpp=$(BIN_DIR)/%.o)
