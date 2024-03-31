@@ -1,7 +1,7 @@
 # PGM reader and Edge detection
 
 ## Description
-***entirely from scratch***: Reads and writes a PGM image upon performing edge detection (Sobel) without relying on any external helper libraries.
+***entirely from scratch***: Reads and writes a [PGM image](https://en.wikipedia.org/wiki/Netpbm#File_formats) upon performing edge detection (Sobel) **without** relying on any external helper libraries.
 
 **Bonus:** An auto-compile against the Makefile on file save ;)
 
